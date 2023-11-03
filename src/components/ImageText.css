@@ -46,8 +46,8 @@
     color: black;
     flex-wrap: wrap;
     /* border: 3px solid rgb(0, 115, 255); */
-    margin-top: 50px;
-    padding-top: 300px;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 
 .img{
@@ -70,6 +70,8 @@
 .title2{
     font-size: 50px;
     font-weight: normal;
+    /* border: 3px solid greenyellow; */
+    padding-left: 6px;
 }
 
 .paragraph{
