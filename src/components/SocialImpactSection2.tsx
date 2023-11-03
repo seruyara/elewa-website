@@ -13,11 +13,13 @@ function SocialImpactSection2() {
           ourselves. Internally, but also within the larger communities in which
           we are active.
         </p>
+        <div>
         <img
           alt="bufallo"
           className="img"
           src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1681308135/buffelo_i60xeu.jpg"
         />
+        </div>
       </div>
     </section>
   );

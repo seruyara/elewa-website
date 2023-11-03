@@ -5,6 +5,10 @@
   border-bottom-right-radius: 30px;
 }
 
+.section2{
+    background-color: rgb(236, 236, 236);
+}
+
 .stats{
     display: flex;
     justify-content: center;
