@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import "./ImageText.css";
 
 function SocialImpactSection1() {
@@ -7,11 +7,11 @@ function SocialImpactSection1() {
       <div className="stats">
         <div className="sections">
           <h1 className="value">733+</h1>
-          <p className="title">People tarined</p>
+          <p className="title">People trained</p>
         </div>
         <div className="sections">
           <h1 className="value">733k+</h1>
-          <p className="title">careers launched</p>
+          <p className="title">Careers launched</p>
         </div>
         <div className="sections">
           <h1 className="value">200+</h1>
@@ -35,7 +35,7 @@ function SocialImpactSection1() {
           <p className="paragraph">
             With a young dynamic population that is eager to contribute to the
             global economy, East Africa has a lot to offer to the world. Now is
-            the time to nurture sustainable, inclusive and scalable business.
+            the time to nurture sustainable, inclusive, and scalable business.
             The rest will take care of itself.
           </p>
         </div>

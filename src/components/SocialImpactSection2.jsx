@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import "./ImageText.css";
 
 function SocialImpactSection2() {
@@ -17,7 +17,7 @@ function SocialImpactSection2() {
           alt="bufallo"
           className="img"
           src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1681308135/buffelo_i60xeu.jpg"
-        ></img>
+        />
       </div>
     </section>
   );
