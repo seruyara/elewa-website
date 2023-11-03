@@ -1,0 +1,59 @@
+.impact-section{
+    background-color: black;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+}
+
+.sections{
+    width: 250px;
+    margin: 10px;
+    color: white;
+}
+
+.value{
+    font-size: 50px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
+.image-left{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 80px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.img{
+    max-width: 450px;
+    position: relative;
+    border-radius: 30px;
+    margin-right: 40px;
+    
+}
+
+.text-content{
+    width: 600px;
+    margin: 50px;
+}
+
+.title2{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.paragraph{
+    font-size: 24px;
+    font-weight: normal;
+}
