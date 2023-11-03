@@ -8,7 +8,10 @@
 
 .mindset-section{
     background-color: rgb(236, 236, 236);
-    /* background-color: rgb(255, 255, 255); */
+}
+
+.beyond-section{
+    background-color: rgb(255, 255, 255);
 }
 
 .stats{
@@ -78,4 +81,8 @@
 .paragraph{
     font-size: 24px;
     font-weight: normal;
+}
+
+.black{
+    color: black;
 }
