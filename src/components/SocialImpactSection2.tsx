@@ -3,7 +3,7 @@ import "./ImageText.css";
 
 function SocialImpactSection2() {
   return (
-    <section className="impact-section section2">
+    <section className="impact-section mindset-section">
       <div className="image-right">
         <h1 className="title2">A cooperative mindset</h1>
         <p className="paragraph">
