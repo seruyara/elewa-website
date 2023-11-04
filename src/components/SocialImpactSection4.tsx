@@ -19,9 +19,9 @@ function SocialImpactSection4() {
           We build for today, with a lens on tomorrow.
         </p>
       </div>
-      <div>
+      <div className="image-content">
         <img
-          _ngcontent-ybq-c150=""
+        className="img"
           src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png"
         />
       </div>

@@ -2,49 +2,51 @@
   background-color: transparent;
     font-size: 13px;
     font-weight:normal;
-    border-bottom: 2px solid white;
-    display: flex;
-    align-items: center;
     padding-bottom: 20px;
   }
 
-  .navbar{
-    margin-left: auto;
-    margin-right: 70px;
-    margin-top: 50px;
-  }
-  
-  .navbar ul{
-    margin: 0;
+  .header-container{
+    border-bottom: 1px solid white;
     display: flex;
-    justify-content: flex-end;
+    align-content: center;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .nav-container{
+    margin-left: auto;
+    margin-top: 60px;
+    /* border: 3px solid yellow; */
+    align-content: center;
+    display: flex;
+    margin-bottom: 30px;
   }
   
-  .navbar li{
+  .nav-container ul{
+    margin-top: 20px;
+    justify-content: flex-end;
+    /* border: 3px solid rgb(0, 255, 13); */
+  }
+  
+  .nav-container li{
     display: inline;
   }
   
-  .navbar a{
+  .nav-container a{
     padding: .5em;
     color: white;
     text-decoration: none;
     display: inline-block;
     padding-right: 20px;
+    /* border: 3px solid rgb(0, 81, 255); */
   }
   
-  .navbar a:hover{
+  .nav-container a:hover{
     text-decoration: underline;
   }
   
   .logo{
-    font-size: 50px;
-    margin: 0;
-    padding-left: 70px;
-    padding-top: 30px;
-    color: white;
+    /* border: 3px solid rgb(255, 98, 0); */
+    margin-top: 70px;
   }
-  
-
-  
-
-  

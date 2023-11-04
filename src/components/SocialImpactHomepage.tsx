@@ -4,15 +4,19 @@
 
 
 
+
+
  function SocialImpactHomepage() {
     return(
-        <section >
+        <section className='' >
             <div className='homepage-container'>
                 <Header />
-                {/* <div className='homepage-content'>
+                <div className='homepage-content'>
+                <div className='homepage-text' >
                     <h2 className='subtitle'>Scaling impact. Beyond the norm</h2>
-                    <h1 className='homepage-tittle'>Human and Environmental Impact through Social Enterprise</h1>
-                </div> */}
+                    <h1 className='homepage-tittle'>Human and Environmental Impact <br /> through Social Enterprise</h1>
+                </div>
+                </div>
             </div>
         </section>
     );

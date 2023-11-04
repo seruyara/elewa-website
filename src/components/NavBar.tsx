@@ -4,7 +4,7 @@ import './Header.css'
 
 function NavBar() {
     return (
-        <nav className="navbar">
+        <nav className="nav-container">
             <ul>
                 <li><Link to="/homepage">Home</Link></li>
                 <li><Link to="/about">About Us</Link></li>

@@ -3,7 +3,6 @@
     /* margin-bottom: 10px; */
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    /* border: 3px solid rgb(255, 0, 204); */
 }
 
 .mindset-section{
@@ -15,14 +14,19 @@
 }
 
 .stats{
+    /* border: 3px solid rgb(255, 0, 204); */
     display: flex;
-    justify-content: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px; 
 }
 
 .sections{
-    width: 250px;
-    margin: 10px;
+    /* width: 250px; */
+    margin: 0px;
     color: white;
+    /* border: 3px solid rgb(200, 255, 0); */
+    margin-left: 20px;
 }
 
 .value{
@@ -30,7 +34,7 @@
 }
 
 .title{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -54,8 +58,9 @@
     margin-bottom: 100px;
 }
 
+
 .img{
-    max-width: 450px;
+    max-width: 400px;
     position: relative;
     border-radius: 30px;
     margin-right: 40px;
