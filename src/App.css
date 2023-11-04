@@ -9,4 +9,65 @@ html,body{
   padding: 0;
 }
 
+.white{
+  color: white;
+}
 
+.footer{
+  background-color: black;  
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.footer-content{
+  padding: 40px;
+}
+
+.footer-navigations{
+  border-top: 2px solid white;
+  display: flex;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.foot-box{
+  /* border: 3px solid rgb(75, 88, 205); */
+  width: 300px;
+  margin: 10px; 
+  padding-bottom: 0px;
+}
+
+.foot-tittle{
+  margin: 2px;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: underline;
+  /* padding-top: 10px; */
+}
+
+.foot-text:hover{
+  text-decoration: underline;
+}
+
+.footer-imgs{
+  /* border: 3px solid rgb(26, 225, 236); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons{
+    /* border: 3px solid rgb(75, 88, 205); */
+    display: flex;
+    margin-right: 20px;
+}
+
+.logo{
+    /* border: 3px solid rgb(75, 205, 155); */
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
