@@ -8,7 +8,7 @@ import SocialImpactSection4 from "./SocialImpactSection4";
 
 function SocialImpact() {
   return (
-    <div>
+    <div className="social-impact">
       <SocialImpactHomepage />
       <SocialImpactSection1 />
       <SocialImpactSection2/>

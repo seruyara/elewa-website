@@ -8,6 +8,10 @@
     min-height: 100vh; /* Set the minimum height to fill the viewport */
   }
 
+  .invent-cover{
+    background-image: url("https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg");
+  }
+
   .homepage-content{
     /* border: solid 3px pink; */
     color: white;
