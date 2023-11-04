@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, /*Route,*/ Routes } from 'react-router-dom';
 import './App.css';
-import SocialImpactSection3 from './components/SocialImpactSection3';
+import SocialImpactSection4 from './components/SocialImpactSection4';
 
 
 function App() {
   return (
     <Router>
-      <SocialImpactSection3/>
+      <SocialImpactSection4/>
       <div>
         <Routes>
          {/* <Route path='/navbar' element={<NavBar/>}/> */}
