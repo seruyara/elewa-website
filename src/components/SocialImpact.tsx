@@ -1,4 +1,5 @@
 import * as React from "react";
+import Footer from "./Footer";
 import SocialImpactHomepage from "./SocialImpactHomepage";
 import SocialImpactSection1 from "./SocialImpactSection1";
 import SocialImpactSection2 from "./SocialImpactSection2";
@@ -13,6 +14,7 @@ function SocialImpact() {
       <SocialImpactSection2/>
       <SocialImpactSection3/>
       <SocialImpactSection4/>
+      <Footer/>
     </div>
   );
 }

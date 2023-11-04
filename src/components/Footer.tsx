@@ -1,12 +1,9 @@
-import * as React from "react";
-import SocialImpactSection2 from "./SocialImpactSection2";
+ import * as React from 'react';
 
-
-function Footer() {
-  return (
-    <div>
-      <SocialImpactSection2 />
-      <footer className="footer" >
+ function Footer(){
+  return(
+    <section>
+      <footer className="footer-box" >
         <div className="footer-content white">
           <div className="footer-navigations">
             <div className="headquaters foot-box">
@@ -51,8 +48,10 @@ function Footer() {
           </div>
         </div>
       </footer>
-    </div>
+    </section>
   );
-}
+ }
+
 
 export default Footer;
+
