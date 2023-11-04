@@ -1,0 +1,30 @@
+
+.homepage-container {
+    background-image: url('https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg');
+    background-size: cover; /* Adjust to cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    /* Add any additional styles you need for the container */
+    min-height: 100vh; /* Set the minimum height to fill the viewport */
+  }
+
+  .homepage-content{
+    border: solid 3px pink;
+    color: white;
+    margin-top: 20px;
+    width: 700px;
+    margin-left: 90px;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center; 
+  }
+
+  .subtitle{
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .homepage-tittle{
+    font-size: 47px;
+    font-weight: normal;
+    margin-top: 0;
+  }
