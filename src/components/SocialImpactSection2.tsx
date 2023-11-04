@@ -5,7 +5,7 @@ function SocialImpactSection2() {
   return (
     <section className="impact-section mindset-section">
       <div className="image-right">
-        <div className="text-content mindset-content">
+        <div className="text-content right-content">
           <h1 className="title2">A cooperative mindset</h1>
           <p className="paragraph">
             Elewa has one shared objective; To unlock the true potential of

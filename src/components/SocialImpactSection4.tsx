@@ -4,7 +4,8 @@ import "./ImageText.css";
 function SocialImpactSection4() {
   return (
     <section className="impact-section">
-      <div className="image-right white">
+        <div className="image-right ">
+        <div className="text-content white">
         <h1 className="title2">Open knowledge</h1>
         <p className="paragraph">
           What we learn, we share. Through community events, open knowledge
@@ -24,6 +25,7 @@ function SocialImpactSection4() {
           src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png"
         />
       </div>
+        </div>
     </section>
   );
 }
