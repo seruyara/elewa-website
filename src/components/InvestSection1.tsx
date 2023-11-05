@@ -1,11 +1,12 @@
 import * as React from "react";
+import "./ImageText.css";
 
 function InvestSection1() {
   return (
     <section>
-      <div>
-        <div>
-          <h5 className="title2">How we see it differently</h5>
+      <div className="text-image">
+        <div className=" bigger">
+          <h5 className="title2 ">How we see it differently</h5>
           <p className="paragraph">
             The global South is rapidly catching up with the "developed" world.
             It's time for you to get to know the rapid development, innovation
@@ -13,11 +14,11 @@ function InvestSection1() {
             Asia and beyond).
           </p>
         </div>
-        <div>
+        <div className="image-content">
           <img
             src="https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,w_1280/v1675690306/elewa-group-website/Images/Mask_Group_17_rjkgrq.png"
             alt="elewaimage"
-            className="img img-big"
+            className="image-content"
           />
         </div>
       </div>
