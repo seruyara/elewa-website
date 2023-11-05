@@ -5,6 +5,7 @@ import SocialImpactSection1 from "./SocialImpactSection1";
 import SocialImpactSection2 from "./SocialImpactSection2";
 import SocialImpactSection3 from "./SocialImpactSection3";
 import SocialImpactSection4 from "./SocialImpactSection4";
+import SocialImpactSection5 from "./SocialImpactSection5";
 
 function SocialImpact() {
   return (
@@ -14,6 +15,7 @@ function SocialImpact() {
       <SocialImpactSection2/>
       <SocialImpactSection3/>
       <SocialImpactSection4/>
+      <SocialImpactSection5/>
       <Footer/>
     </div>
   );
