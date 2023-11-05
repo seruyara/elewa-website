@@ -1,11 +1,18 @@
+/* Import the necessary modules from the 'react' library */
 import * as React from "react";
+
+/* Import CSS styles from the 'ImageText.css' file */
 import "./ImageText.css";
 
+/* Define the SocialImpactSection3 component */
 function SocialImpactSection3() {
   return (
+    /* Render a section element with the classes 'impact-section' and 'beyond-section' for styling */
     <section className="impact-section beyond-section">
+      {/* Render a div with the class 'image-left' for the image and text content */}
       <div className="image-left">
         <div className="image-content">
+          {/* Render an image with an alternative text, class 'img', and source URL */}
           <img
             alt="boy"
             className="img"
@@ -13,7 +20,9 @@ function SocialImpactSection3() {
           />
         </div>
         <div className="text-content">
+          {/* Render an h1 element with the text 'Beyond business' and class 'title2 black' */}
           <h1 className="title2 black">Beyond business</h1>
+          {/* Render a paragraph element with a description text */}
           <p className="paragraph black">
             We channel a good amount of our resources into giving back.
           </p>
@@ -33,4 +42,5 @@ function SocialImpactSection3() {
   );
 }
 
+/* Export the SocialImpactSection3 component so that it can be used in other parts of the application */
 export default SocialImpactSection3;

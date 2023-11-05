@@ -1,51 +1,41 @@
+/* Import the necessary modules from the 'react' library */
 import * as React from "react";
 
-function InvestSection5() {
+/* Define the InvestSection4 component */
+function InvestSection4() {
   return (
-    <section>
-      <div className="image-left">
-        <div className="image-content">
+    /* Render a section element with classes 'impact-section', 'mindset-section', and 'beyond-section' for styling */
+    <section className="impact-section mindset-section beyond-section">
+      {/* Render a div with the class 'image-right' */}
+      <div className="image-right">
+        <div className="text-content right-content">
+          {/* Render an h1 element with the text 'The Elewa Creative Hub' */}
+          <h1 className="title2">The Elewa Creative Hub</h1>
+          {/* Render a paragraph element with a description text */}
+          <p className="paragraph">
+            Coming soon; The Elewa Creative Hub Lies at the heart of our
+            organization. A two-acre property at the center of Nairobi's
+            creative district, the hub connects all Elewa's Activities under a
+            single banner.
+          </p>
+          {/* Render another paragraph element with a description text */}
+          <p className="paragraph">
+            Through partnerships with the creative community, the Elewa Hub will
+            organize vibrant activities that bring talents from different fields
+            (tech, business, art, fashion) together to nurture continuous
+            innovation.
+          </p>
+        </div>
+        <div>
           <img
             className="img"
-            alt="pic"
-            src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983082/elewa-group-website/Images/invest-now_ftxg4z.jpg"
+            src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983012/elewa-group-website/Images/creative-hub-image_dd6o8o.jpg"
           />
-        </div>
-        <div className="text-content">
-          <h1 className="title2 black">Investing in Elewa NV</h1>
-          <p className="paragraph black">
-            From time to time, we offer investment opportunities (private equity
-            & debt) to out community of investors. Interested to take part when
-            this opportunity arrives?
-          </p>
-          <div className="section-button">
-            <button className="button-animation">
-              <span>Join the waiting list</span>
-              <section className="arrow-container">
-                <svg
-                  id="arrow-right"
-                  className=""
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fas"
-                  data-icon="arrow-right-long"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  data-fa-i2svg=""
-                >
-                  <path
-                    fill="currentColor"
-                    d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
-                  ></path>
-                </svg>
-              </section>
-            </button>
-          </div>
         </div>
       </div>
     </section>
   );
 }
 
-export default InvestSection5;
+/* Export the InvestSection4 component so that it can be used in other parts of the application */
+export default InvestSection4;

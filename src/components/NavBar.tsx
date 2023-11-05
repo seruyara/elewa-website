@@ -1,11 +1,15 @@
-import * as React from "react";
-import { Link } from "react-router-dom";
-import './Header.css'
+/* Import the necessary modules from the 'react' library */
+import * as React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
 
+/* Define the NavBar component */
 function NavBar() {
     return (
+        /* Render a navigation container with the class 'nav-container' */
         <nav className="nav-container">
             <ul>
+                {/* Render an unordered list with list items, each containing a Link element to navigate to different routes */}
                 <li><Link to="/homepage">Home</Link></li>
                 <li><Link to="/about">About Us</Link></li>
                 <li><Link to="/social-impact">Social impact</Link></li>
@@ -19,4 +23,5 @@ function NavBar() {
     );
 }
 
+/* Export the NavBar component so that it can be used in other parts of the application */
 export default NavBar;
