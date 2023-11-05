@@ -3,15 +3,15 @@ import "./homepage.css";
 
 function InvestSection6(){
     return(
-             <section className='impact-section'>
-            <div className='lower-container'>
+        <div className='impact'>
+            <div className='lower-container '>
             <span className='big-text'>  Become part of our mission. </span>
-            <span className='big-text right'> and 
-                <a className='bold' href="link">join elewa.</a>
+            <span className='big-text right'> and start
+                <a className='bold' href="link">investing</a>
             </span>
             </div>
-        </section>
+        </div>
     );
 }
 
-export default InvestSection6
+export default InvestSection6;

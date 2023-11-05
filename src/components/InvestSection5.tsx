@@ -1,5 +1,4 @@
 import * as React from "react";
-import "src/components/ButtonSec.css";
 
 function InvestSection5() {
   return (
