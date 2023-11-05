@@ -3,6 +3,7 @@ import Footer from './Footer';
 import InvestHomepage from './InvestHomepage';
 import InvestSection3 from './InvestSection3';
 import InvestSection4 from './InvestSection4';
+import InvestSection5 from './InvestSection5';
 
 
 function Invest(){
@@ -11,6 +12,7 @@ function Invest(){
          <InvestHomepage/>
          <InvestSection3/>
          <InvestSection4/>
+         <InvestSection5/>
          <Footer/>
         </div>
     );
