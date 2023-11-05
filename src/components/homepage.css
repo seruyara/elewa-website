@@ -6,10 +6,16 @@
     background-repeat: no-repeat; /* Prevent repeating */
     /* Add any additional styles you need for the container */
     min-height: 100vh; /* Set the minimum height to fill the viewport */
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: multiply;
   }
 
   .invent-cover{
     background-image: url("https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg");
+  }
+
+  .aboutus-cover{
+    background-image: url("https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg");
   }
 
   .homepage-content{
