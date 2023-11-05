@@ -34,14 +34,43 @@
 
   .subtitle{
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     margin-top: 30px;
     margin-right: 50px;
   }
 
   .homepage-tittle{
     font-size: 47px;
-    font-weight: normal;
+    font-weight:400;
     margin-top: 10px;
 
+  }
+
+  .impact-section{
+    /* border: solid 3px cadetblue; */
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .lower-container{
+    /* border: solid 3px rgb(160, 95, 144); */
+    margin: 60px;
+    padding: 40px;
+    width: 700px;
+  }
+
+  .big-text{
+      font-size: 45px;
+  }
+
+  .bold{
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+  }
+
+  .right{
+    margin: 100px;
   }
