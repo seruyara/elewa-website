@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function ImpactSection5() {
+function InvestSection5() {
   return (
     <section>
       <div className="image-left">
@@ -48,4 +48,4 @@ function ImpactSection5() {
   );
 }
 
-export default ImpactSection5;
+export default InvestSection5;
