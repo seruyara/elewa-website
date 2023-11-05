@@ -8,10 +8,10 @@ import SocialImpact from './components/SocialImpact';
 function App() {
   return (
     <Router>
-    <Invest/>
       <div>
         <Routes>
          <Route path='social-impact' element={<SocialImpact/>}/>
+         <Route path='invest' element={<Invest/>}/>
         </Routes>
       </div>
     </Router>
